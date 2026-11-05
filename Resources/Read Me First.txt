@@ -1,0 +1,47 @@
+Looksee
+=======
+
+Look at a monitor and keyboard focus (and the pointer) jump to the window
+you last used there. Runs on the Mac's camera. Nothing is stored or sent
+anywhere; frames are analysed in memory and thrown away.
+
+Needs macOS 14 or later and at least two displays.
+
+
+INSTALL (five minutes, once)
+
+1. Drag Looksee onto the Applications folder next to it. Open it from
+   Applications, not from this window.
+
+2. macOS blocks apps that aren't from the App Store or a registered
+   developer. The first time it says it "could not verify" Looksee:
+     - Click Done (not Move to Bin).
+     - Open System Settings > Privacy & Security, scroll down to the
+       Security section, click "Open Anyway" next to Looksee, then confirm
+       with your password.
+     - On macOS 14 Sonoma: Control-click Looksee > Open > Open instead.
+
+3. Allow the Camera when asked.
+
+4. Allow Accessibility: System Settings > Privacy & Security >
+   Accessibility, turn on Looksee. This is how it sees and raises other
+   apps' windows.
+
+5. Click the eyes icon in the menu bar (top right) > Calibrate Screens.
+   Each screen lights up green in turn. Face it, hold still for two
+   seconds, done.
+
+
+USING IT
+
+- Look at a screen. After about half a second focus lands on the window
+  you last used there, and the pointer comes along.
+- Shift+Cmd+G pauses and resumes. Paused means the camera is off.
+- It holds still while you're typing or dragging, so reading from one
+  screen while typing on another doesn't move anything.
+- With one display connected it idles with the camera off.
+- The menu shows what it is doing and has the options: pointer following,
+  hold while typing, dwell time, launch at login, camera choice.
+
+If it ever feels confused between two screens, run Calibrate Screens
+again and turn your head and eyes to each screen the way you normally do.
